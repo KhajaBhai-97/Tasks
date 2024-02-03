@@ -1,0 +1,23 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2?
+
+Both are used to establish the connection between client and server.
+
+
+HTTP1.1:
+
+    TCP connection required for each request and response.
+    It does not allows the next request to be sent until the previous response complete.
+    It takes more time to complete the all the request to render the content in browser.
+    Performance wise its poor.
+    It sends the request in text format.
+    It does not send the multiple requests at a time.
+
+
+HTTP2:
+
+    It allows multiple request and response at a time in parallel using single TCP connection.
+    It reduces the execution time.
+    Better Performance compared to HTTP1.
+    All the requests and responses are in binary format.
+    It encodes the request and response into smaller units.
+    It supports multiplexing.

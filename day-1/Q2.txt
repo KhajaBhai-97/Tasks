@@ -1,0 +1,30 @@
+Write a blog about objects and its internal representation in Javascript?
+
+
+Objects:
+
+    Its key-value pairs to store the data.
+    Data can be accessed based on the key name of the object.
+    Data can be enclosed in curly brackets like {}.
+
+    let obj = { 
+        name: "Harry",
+        city: "Chennai",
+    }
+
+    Here name can be accessed by obj['name'] or obj.name.
+
+Arrays:
+
+    Data can be accessed based on the index.
+    New data can be added at the last index of the array.
+    push method can be used to add the new data at the last position to an array.
+    pop method can be used to remove the last data from an array.
+    Data can be enclosed in square brackets like [].
+
+    let data = [1, 2, 3, 4, 5]
+    
+    need to display the value 2 in data array  based on index like data[1].
+
+    array will be always start with index has 0.
+     
