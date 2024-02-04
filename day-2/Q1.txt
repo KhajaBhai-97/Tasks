@@ -1,0 +1,19 @@
+Write a blog on the Difference between document and window objects?
+
+Window object:
+
+    Represents browser window.
+    Loaded initially in the browser.
+    Global variabled are properties of window object.
+    Global functions are methods of window object.
+    Does not required *window* keyword to access the property of the window object. because it values loaded at run time.
+
+
+
+Document object:
+
+    Represents to display the content of the web page.
+    One of the property from window object.
+    Loaded inside the window object.
+    We can change document behaviour like contents, styles and functionalities.
+    *document* keyword is required to access their properties.
