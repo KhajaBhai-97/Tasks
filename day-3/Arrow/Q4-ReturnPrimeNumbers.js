@@ -1,0 +1,1 @@
+/* Return all the prime numbers in an array*/
