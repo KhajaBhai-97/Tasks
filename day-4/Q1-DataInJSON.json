@@ -1,0 +1,28 @@
+{
+  "name": "kajamaideen",
+  "mobile": 7987986774,
+  "mail": "kajamaideen@gmail.com",
+  "education": [
+    {
+      "degree": "BE",
+      "institute": "Anna university",
+      "year": "2018"
+    },
+    {
+      "degree": "HSC",
+      "institute": "Govt Hr Sec School",
+      "year": "2014"
+    },
+    {
+      "degree": "SSLC",
+      "institute": "Govt Hr Sec School",
+      "year": "2012"
+    }
+  ],
+  "course": {
+    "institute": "GUVI",
+    "year": "2024",
+    "course": "FSD",
+    "Batch": "FSD56WE-T"
+  }
+}
