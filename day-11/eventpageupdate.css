@@ -1,0 +1,124 @@
+/* .container {
+  width: 100vw;
+  height: 100vh;
+} */
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0%;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid black;
+}
+
+p {
+  text-align: center;
+}
+
+.bodysection {
+  position: relative;
+  top: 10%;
+  border: 2px solid black;
+  height: 60vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.eventimgdiv {
+  margin: 40px;
+  width: 20%;
+  border: 1px solid black;
+}
+
+.imgevent {
+  width: 50%;
+  height: 65%;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.eventdetailsbtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px;
+  width: 70%;
+  border: 2px solid green;
+}
+
+.eventdetails {
+  border: 2px solid red;
+}
+
+.buttonsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  width: 30%;
+}
+
+#eventtitle {
+  font-family: "Permanent Marker", cursive;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+.capitalletter {
+  text-transform: capitalize;
+}
+
+.imgtxt {
+  display: block;
+  position: relative;
+  top: 30%;
+}
+
+/* from nxt */
+.label {
+  font-weight: bold;
+}
+
+/* Styling for input fields */
+.input-field {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Styling for buttons */
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background-color: #ccc;
+}
+
+.label {
+  
+}
